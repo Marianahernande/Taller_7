@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 249, 250);
+}
+
+
+/*navbar*/
+
+.navbar {
+    padding: 3rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    color: rgba(56, 54, 54, 0.925);
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#47c7fa, #e4e8ff);
+}
+
+.form-signin {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 440px;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background: rgb(227, 233, 233);
+    box-shadow: 0 15px 25px rgb(5, 5, 5);
+    border-radius: 20px;
+}
+
+.form-signin .logo{
+    margin-bottom: -70px;
+    width: 400px;
+    padding: 40px;
+
+}
+
+.form-signin h4 {
+    margin: 0 0 50px;
+    padding: 0;
+    color: #fd7302;
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-signin .form-floating {
+    position: relative;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 4;
+}
+
+.form-signin .form-floating label {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #686666;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#register {
+    padding: 1.5rem;
+}
