@@ -1,1 +1,3 @@
 # Taller_7
+
+Lo que hicimos fue crear 2 nuevos repositorios para categorías y productos, en la base de datos añadimos esas tablas con sus respectivos campos y FK, después de esto creamos los beans parra categoría y producto en donde creamos los constructores, uno vacío y uno con parámetros, creamos los setters and getters y to String. Seguido de esto en los respositorios llenamos los métodos que provienen de la interfaz repository. Creamos el debido front que serán los jsp, lo conectamos con los servlets, en el cual conectamos la vita para poder registrar categoría. Yo creé un test para categoría y producto para ver si si funcionaba e insertaba, actualizaba datos debidamente. 
